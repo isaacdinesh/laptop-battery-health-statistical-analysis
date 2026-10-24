@@ -57,6 +57,7 @@ laptop-battery-health-statistical-analysis/
 │
 ├── data/
 │   └── README.md
+│   └── LaptopBatteryHealthPrediction.csv
 │
 ├── scripts/
 │   ├── 01_exploratory_analysis.R

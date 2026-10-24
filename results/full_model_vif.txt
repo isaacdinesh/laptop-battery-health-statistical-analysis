@@ -1,0 +1,4 @@
+        Battery.Age         Cycle.Count 
+          10.718995           10.725437 
+  Daily.Usage.Hours Average.Temperature 
+           1.257550            1.252944 

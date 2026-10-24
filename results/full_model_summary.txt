@@ -1,0 +1,30 @@
+
+Call:
+lm(formula = Battery.Health ~ Battery.Age + Cycle.Count + Daily.Usage.Hours + 
+    Average.Temperature, data = dat)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-12.439  -2.082   0.136   2.629  11.309 
+
+Coefficients:
+                      Estimate Std. Error
+(Intercept)          1.021e+02  1.347e+00
+Battery.Age         -8.748e-01  1.260e-01
+Cycle.Count         -1.284e-02  6.771e-04
+Daily.Usage.Hours   -5.989e-02  3.881e-02
+Average.Temperature -6.466e-02  4.650e-02
+                    t value Pr(>|t|)    
+(Intercept)          75.755  < 2e-16 ***
+Battery.Age          -6.942 6.32e-12 ***
+Cycle.Count         -18.968  < 2e-16 ***
+Daily.Usage.Hours    -1.543    0.123    
+Average.Temperature  -1.391    0.165    
+---
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 3.774 on 1195 degrees of freedom
+Multiple R-squared:  0.8558,	Adjusted R-squared:  0.8554 
+F-statistic:  1774 on 4 and 1195 DF,  p-value: < 2.2e-16
+

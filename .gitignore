@@ -6,6 +6,3 @@ originals/
 .RData
 .Ruserdata
 .Rproj.user/
-
-# Dataset (download from Kaggle)
-data/*.csv

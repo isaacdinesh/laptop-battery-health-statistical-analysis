@@ -305,15 +305,13 @@ git clone https://github.com/isaacdinesh/laptop-battery-health-statistical-analy
 
 Open the cloned repository in RStudio and set the working directory to the repository root.
 
-**3. Download the dataset**
+**3. Verify the dataset**
 
-Download the [Laptop Battery Health Prediction Dataset](https://www.kaggle.com/datasets/dharmendrapandit12/laptop-battery-health-dataset) from Kaggle.
+The dataset is included in the repository at:
 
-Save the dataset as:
+`data/LaptopBatteryHealthPrediction.csv`
 
-```text
-data/LaptopBatteryHealthPrediction.csv
-```
+No separate download is required. The original dataset and licensing information are documented in [data/README.md](data/README.md).
 
 **4. Install the required packages**
 

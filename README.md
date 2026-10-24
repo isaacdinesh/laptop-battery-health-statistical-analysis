@@ -56,7 +56,7 @@ laptop-battery-health-statistical-analysis/
 ├── .gitignore
 │
 ├── data/
-│   └── README.md
+│   ├── README.md
 │   └── LaptopBatteryHealthPrediction.csv
 │
 ├── scripts/

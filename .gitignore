@@ -1,0 +1,11 @@
+# Private coursework and feedback
+originals/
+
+# RStudio files
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Dataset (download from Kaggle)
+data/*.csv

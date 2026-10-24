@@ -1,13 +1,17 @@
 
 # Dataset
 
-This project uses the Laptop Battery Health Prediction Dataset by Dharmendra Pandit.
+This project uses the **Laptop Battery Health Prediction Dataset** by Dharmendra Pandit.
 
 **Source:** [Kaggle — Laptop Battery Health Prediction Dataset](https://www.kaggle.com/datasets/dharmendrapandit12/laptop-battery-health-dataset)
 
+**Dataset licence:** MIT (as listed on Kaggle)
+
+## Dataset Description
+
 The dataset contains 1,200 observations and 11 variables describing laptop battery characteristics and operating conditions.
 
-## Variables Used
+### Variables Used
 
 **Target:**
 - Battery Health
@@ -28,14 +32,16 @@ Findings should therefore be interpreted as a demonstration of statistical model
 
 ## Dataset File
 
-The dataset is included in this repository as:
+The dataset is included in this repository at:
 
 `data/LaptopBatteryHealthPrediction.csv`
 
-This allows the R analysis scripts to run without requiring a separate dataset download.
+The R scripts load the CSV directly from this location, allowing the analyses to be reproduced without separately downloading the dataset.
 
-The original dataset was created by Dharmendra Pandit and published on Kaggle:
+## Attribution and Licensing
 
-[Original Dataset — Kaggle](https://www.kaggle.com/datasets/dharmendrapandit12/laptop-battery-health-dataset)
+The dataset was published by Dharmendra Pandit on Kaggle under the MIT licence.
 
-The dataset is synthetic and is provided for reproducibility and educational analysis. Original dataset ownership and applicable licensing terms remain with the source publisher.
+The original dataset source is acknowledged above. Any original copyright and licence notice accompanying the dataset should be retained when redistributing it.
+
+The dataset's licence applies to the dataset and does not imply that the entire analysis repository is MIT-licensed.

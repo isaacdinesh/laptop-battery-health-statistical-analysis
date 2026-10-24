@@ -26,10 +26,16 @@ The dataset is synthetic and may not accurately represent real-world battery age
 
 Findings should therefore be interpreted as a demonstration of statistical modelling methods rather than validated predictions for real laptop batteries.
 
-## File Location
+## Dataset File
 
-The analysis script expects the dataset at:
+The dataset is included in this repository as:
 
 `data/LaptopBatteryHealthPrediction.csv`
 
-If the dataset is not included in this repository, download it from the original Kaggle source and place it at the path above.
+This allows the R analysis scripts to run without requiring a separate dataset download.
+
+The original dataset was created by Dharmendra Pandit and published on Kaggle:
+
+[Original Dataset — Kaggle](https://www.kaggle.com/datasets/dharmendrapandit12/laptop-battery-health-dataset)
+
+The dataset is synthetic and is provided for reproducibility and educational analysis. Original dataset ownership and applicable licensing terms remain with the source publisher.
